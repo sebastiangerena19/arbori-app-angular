@@ -1,0 +1,42 @@
+<div class="section">
+    <h5>Método Helliwell</h5>
+    <div class="container left-align">
+        <div class="card green lime lighten-3">
+            <div class="card-content center">
+                <div class="row">
+                    <div class="col">
+                        <img class="responsive-img" src="assets/exclama.png" width=150 height=150>
+                    </div>
+                    <span class="card-title center">
+                        <strong>Método Helliwell</strong>
+                    </span>
+                    El método Helliwell, creado por el botánico James Helliwell, evalúa el valor de un árbol
+                    considerando su tamaño, tipo, salud y edad.
+                    <br><br>
+                    <strong>Para la valorización de tu árbol por este método debes darnos ciertos datos:</strong>
+                </div>
+            </div>
+        </div>
+        <div class="card-content center green lime lighten-3">
+            <form>
+                <h6><strong>Especie del árbol o nombre común</strong></h6>
+                <i class="material-icons">portrait</i>
+                <p>Es importante conocer la especie del árbol.</p>
+                <input type="text" id="EH" name="Especie Helliwell">
+                <h6><strong>Edad</strong></h6>
+                <i class="material-icons">timelapse</i>
+                <p>Si no conoces la edad exacta, da un aproximado.</p>
+                <input type="number" id="AH" name="Age Helliwell">
+                <h6><strong>Ubicación</strong></h6>
+                <i class="material-icons">terrain</i>
+                <p>Coloca la zona de Colombia donde te encuentras.</p>
+                <input type="text" id="UH" name="Ubicacion Helliwell">
+            </form>
+        </div>
+        <div class="card center">
+            <div class="btn-floating btn-large waves-effect waves-light lime darken-4" (click)="calculateValue()">
+                <i class="material-icons">play_arrow</i>
+            </div>
+        </div>
+    </div>
+</div>
