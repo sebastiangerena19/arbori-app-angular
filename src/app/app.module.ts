@@ -10,6 +10,7 @@ import { ErrorComponent } from './error/error.component';
 import { ValueComponent } from './value/value.component';
 import { MethodSelectionComponent } from './method-selection/method-selection.component';
 import { HttpClient, provideHttpClient } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { HttpClient, provideHttpClient } from '@angular/common/http';
     CtlaMethodComponent,
     ErrorComponent,
     ValueComponent,
-    MethodSelectionComponent
+    MethodSelectionComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
